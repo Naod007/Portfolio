@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naod Araya - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom cursor with image -->
+    <div class="cursor"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home" class="logo">NO<span>DA</span></a>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Animation -->
+    <section id="home">
+        <!-- Floating animation elements -->
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 id="hero-title">Hi, I'm Naod Araya</h1>
+            <p id="hero-description">A passionate web developer creating beautiful, functional websites and applications. I specialize in front-end development with a focus on user experience.</p>
+            <div class="hero-btns" id="hero-buttons">
+                <a href="#projects" class="btn">View Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-content">
+            <h2 data-aos="fade-down" data-aos-duration="1000">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                    <p>I'm a front end web-developer with 4 years of experience building web applications. My journey in tech started when I built my first website at 14, and I've been hooked ever since.</p>
+                    <p>When I'm not coding, you can find me editing videos , reading sci-fi novels, or experimenting with new recipes in the kitchen. I believe in continuous learning and pushing the boundaries of what's possible with code.</p>
+                </div>
+                <div class="about-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="img/profile.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-container">
+            <h2 data-aos="fade-down" data-aos-duration="1000">Skills & Expertise</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Here's an overview of my technical skills and areas of expertise.</p>
+            
+            <div class="skills-categories">
+                <div class="skill-category" data-aos="fade-up" data-aos-duration="1000">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <h3><i class="fas fa-paint-brush"></i> Design & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Figma</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>ProtoPie</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="40%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-content">
+            <h2 data-aos="fade-down" data-aos-duration="1000">My Projects</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Here are some of my recent projects. Each one presented unique challenges and learning opportunities.</p>
+            <div class="projects-container">
+                <div class="project-card" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-featured online store with product listings, cart functionality, and secure checkout.</p>
+                        <div class="project-links">
+                            <a href="https://shopping-site-one-theta.vercel.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/Naod007/shopping-site"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A productivity app for teams to collaborate on projects with real-time updates.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/Naod007/task-manager-website"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Health Tracker</h3>
+                        <p>An application to monitor fitness goals, nutrition, and sleep patterns.</p>
+                        <div class="project-links">
+                            <a href="https://health-tracker-one-phi.vercel.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/Naod007/health-tracker"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>naodaraya07@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+251 988 4861 56</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Ethiopia - Addis Ababa</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <h3>Send Me a Message</h3>
+                <form action="https://formspree.io/f/mpwlvjjg" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button> 
+                    <div id="formMessage"></div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Naod Araya./p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
